@@ -1,0 +1,4 @@
+baseURL = "https://cianjohnston.ie/"
+languageCode = "en-us"
+title = "ie.cianjohnston"
+theme = "temple"
