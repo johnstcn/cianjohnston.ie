@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+	<main>
+		<article>
+			<h1>{{ .Title }}</h1>
+			<div class="subtitle">
+				Posted on 
+				<span class="pubdate">{{ .Date.Format "2006-02-01" }}</span> under
+				<span class="tags"></span>
+				{{ range .Params.tags }}
+					<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">[{{ . }}]</a>
+				{{ end }}
+				</span>
+			</div>
+			<div>
+				{{ .Content }}
+			</div>
+
+		</article>
+		{{ partial "sidebar.html" . }}
+	</main>
+{{ partial "footer.html" . }}

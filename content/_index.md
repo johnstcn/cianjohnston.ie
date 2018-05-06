@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Index | Cian Johnston"
 date: 2018-04-29T09:32:35+01:00
 ---
 

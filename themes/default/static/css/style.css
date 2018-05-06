@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+header {
+    border-bottom: 0.1em dotted #cccccc;
+    padding-top: 1em;
+    padding-bottom: 0.1em;
+    padding-left: 2em;
+
+}
+
+header a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+header a:visited {
+    color: #000000;
+}
+
+header {
+    display: grid;
+}
+
+header h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+
+header nav {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+
+#contact {
+    padding-top: 1em;
+    list-style-type: none;
+}
+
+#contact li {
+    display: inline-block;
+    margin-right: 1em;
+    background-color: rgb(239, 243, 246);
+    background-image: linear-gradient(
+        rgb(250, 251, 252),
+        rgb(228, 235, 240)
+    );
+    outline-color: rgb(36, 41, 46);
+    border: 1px solid rgb(209, 210, 211);
+    border-radius: 3px;
+}
+
+#contact li svg {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    bottom: -2px;
+    padding-left: 4px;
+}
+
+#contact li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    padding-right: 4px;
+}
+
+main {
+    display: grid;
+}
+
+main article {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1;
+    padding-left: 1em;
+}
+
+.pubdate {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.subtitle {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333333;
+    font-family: monospace;
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.subtitle a {
+    text-decoration: none;
+    color: #333333;
+}
+
+main nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
+}
+
+main nav li {
+    list-style-type: square;
+}
+
+main nav li a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+footer {
+    border-top: 0.1em dotted #cccccc;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+

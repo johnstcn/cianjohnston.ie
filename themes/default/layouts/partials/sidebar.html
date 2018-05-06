@@ -1,0 +1,18 @@
+	<nav>
+		<div>
+			<div>
+				<h3>Navigation</h3>
+			</div>
+			<div>
+				<ul id="navigation">
+					{{ range where .Site.Pages "Section" "posts" }}
+						{{ if ne .Title "Posts" }}
+						<li>
+								<a href="{{ .Permalink }}">{{ .Title }}</a>
+						</li>
+						{{ end }}
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+	</nav>

@@ -1,4 +1,5 @@
 baseURL = "https://cianjohnston.ie/"
 languageCode = "en-us"
 title = "ie.cianjohnston"
-theme = "temple"
+theme = "default"
+googleAnalytics = "UA-118758999-1"
