@@ -18,7 +18,7 @@ It goes without saying that you will need `adb` and [`htc_fastboot`](https://www
 
 It also goes without saying that you should really back up any data on the device you care about.
 
-# Which Stock ROM to flash?
+# Taking Stock (of ROMs, that is)
 There is a [fantastic thread on xda-developers](https://forum.xda-developers.com/one-a9/general/wip-ruu-htc-one-a9-t3240344) boasting a dizzying list of Stock HTC ROMs of various versions.  It took me some trial and error before I found one that worked.
 
 The three things I needed to worry about were:
